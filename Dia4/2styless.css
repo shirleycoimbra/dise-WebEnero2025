@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+*:not(button){
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: "Smooch Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size:70px;
+    margin: 15px;
+    text-align: center;
+
+}
+div{
+    margin:20px 15px;
+    background-color: #ff000550;
+    padding: 30px;
+    border-radius: 5%;
+    text-align: center;
+}
+p{
+    text-align:justify;
+}
+img{
+    width: 100%;    
+    display:block;
+    height: auto;
+    margin: 25px;
+
+    
+}
+button{
+    padding: 10px;
+    margin-top: 25px;
+
+}
