@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.div-padre{
+    background-color: blueviolet;
+    width: 250px;
+    height: 250px;
+    margin: 25% auto;
+    border: 10px dotted black;
+}
+
+.div-hijo{
+    background-color: aqua;
+    width: 50%;
+    height: 50%;
+    margin: 25% auto;
+    border: 10px dashed black;
+
+}
