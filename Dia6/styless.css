@@ -15,6 +15,11 @@ header {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
 
 }
 
@@ -47,15 +52,24 @@ li{
 
 li:hover{
     color:rgb(248, 248, 248)
+    
 }
 
-header nav li a.active{
-    color:rgb(248, 248, 248)
+header nav ul li a.active{
+    color:rgb(248, 248, 248);
+    text-decoration: none;
+    
 }
+
+nav ul li a {
+    color:rgb(56, 51, 41);
+    text-decoration: none;
+}
+
 
 a.active{
     text-decoration: none;
-
+    color:rgb(248, 248, 248)
 }
 
 main{
@@ -63,6 +77,7 @@ main{
     min-height: calc(100vh - 125px);
     display: flex;
     flex-direction: column;
+    margin-top: 90px;
 }
 
 p{
