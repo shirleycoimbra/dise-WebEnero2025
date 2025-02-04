@@ -61,7 +61,6 @@ li{
 
 li:hover{
     color:rgb(248, 248, 248)
-    
 }
 
 header nav ul li a.active{
@@ -75,8 +74,7 @@ nav ul li a {
     text-decoration: none;
 }
 
-
-a.active{
+a.active2{
     text-decoration: none;
     color:rgb(248, 248, 248)
 }
@@ -85,65 +83,70 @@ main{
     padding:15px;
     min-height: calc(100vh - 125px);
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 90px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 h2{
-    margin: 20px;
-    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 500;
 }
-p{
-    text-align: justify;
+
+form{
+    background: #fff;
+    width: 35%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgb(36, 27, 11);
+    border:2px solid #636363;
+    flex:1;
+    max-width: 500px;
+}
+
+
+form .grupo{
+    position:relative;
+    margin: 45px;
+}
+
+input textarea{
+    background: #fff;
+    color: rgb(92, 102, 111);
     font-size: 20px;
-    margin: 30px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
-.photos{
+label{
+    color:rgb(56, 51, 41);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: -20px;
+}
+
+.button{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
     justify-content: center;
-    gap: 10px;
 }
 
-.photo{
-    width: 250px;
-    height: 150px;
-    margin: 10px;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-    margin-bottom: 10px;
+iframe{
 
+    width: 600px;
+    height: 400px;
+    flex: 1;
+    max-width: 100%;
+    border:2px solid black;
+    border-radius: 10px;
 }
 
-
-.photo1{
-    background-image: url(../Dia5/esfinge.webp);
-    block-size: 600px;
-    background-position: 42%;
-
-}
-
-.photo2{
-    background-image: url(../Dia5/gatonegro.webp);
-    block-size: 600px;
-}
-
-.photo3{
-    background-image: url(../Dia5/siames.jpg);
-    block-size: 600px;
-    background-position: 40%;
-
-}
-
-.photo4{
-    background-image: url(../Dia5/raza\ 4x4.webp);
-    block-size: 600px;
-    background-position: 55%;
-
-}
 footer{
     background-color: rgb(223, 211, 189);
     border-top: solid 3px rgb(168, 153, 124);
@@ -168,12 +171,4 @@ footer a:hover{
 
 }
 
-@media (max-width: 768px){
-    main{
-        flex-direction: column;
-        align-items: center;
-    }
-    form, iframe {
-        width: 90%;
-    }
-}
+

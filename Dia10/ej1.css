@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.prueba{
+    margin:30px
+}
+
+button{
+    border: 1px solid black;
+    padding: 6px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 150%;
+}
+
+button{
+    font-size: 3vw;
+}

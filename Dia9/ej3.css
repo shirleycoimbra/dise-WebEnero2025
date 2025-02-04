@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.prueba {
+    background-color: rgb(164, 40, 192);
+    border: 2px solid  black;
+    width: 50vw;
+    height: 50vh;
+}
+
+@media (max-width: 480px) {
+    .prueba {
+        background-color: red;
+    }
+}
+
+@media (min-width: 481px) and (max-width:780px) {
+    .prueba{
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 481px) and (max-width:1200px) {
+    .prueba{
+        background-color: green;
+    }
+}
+
+@media (min-width: 1200px) {
+    .prueba{
+        background-color: blue;
+    }
+}
