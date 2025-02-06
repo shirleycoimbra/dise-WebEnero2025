@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.original{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(226, 43, 70);
+    border: 1px solid black;
+}
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background: blueviolet;
+    border: 1px solid black;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}

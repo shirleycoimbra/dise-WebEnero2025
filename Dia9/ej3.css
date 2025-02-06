@@ -32,7 +32,7 @@ body {
     }
 }
 
-@media (min-width: 481px) and (max-width:1200px) {
+@media (min-width: 781px) and (max-width:1200px) {
     .prueba{
         background-color: green;
     }

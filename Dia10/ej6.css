@@ -20,6 +20,9 @@ body{
 }
 
 p{
-    max-width: 600vh;
-    line-height: 5em;
+    font-size: 3vh;
+}
+
+h1{
+    font-size: 5vw;
 }

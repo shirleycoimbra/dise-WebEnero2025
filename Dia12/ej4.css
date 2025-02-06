@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin-top: 10vh;
+    padding: 3em;
+}
+
+.menu{
+    position: sticky;
+    top:100px;
+    right: 0px;
+    background-color: rgb(226, 43, 70);
+    border: 1px solid black;
+    z-index: 1;
+    width: 100vw;
+    height: 50px;
+}
+
