@@ -14,7 +14,18 @@ body{
 }
 
 
-p{
+p:nth-child(1){
     width: 50vw;
     margin:1em;
+    position: relative;
+    right: 25vw;
+    bottom: 50px;
+}
+
+p:nth-child(2){
+    width: 50vw;
+    margin:1em;
+    position: relative;
+    left:25vw;
+    top: 50px;
 }
