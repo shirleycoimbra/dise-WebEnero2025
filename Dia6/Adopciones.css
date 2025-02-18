@@ -96,7 +96,7 @@ main{
 }
 
 .photo{
-    width: 240px;
+    width: 18vw;
     height: 10px;
     margin: 10px;
     background-size: cover;
@@ -170,7 +170,7 @@ main{
 footer{
     background-color: rgb(223, 211, 189);
     border-top: solid 3px rgb(168, 153, 124);
-    height: 50px;
+    height: 1em;
     text-align: center;
     font-size: 18px;
     font-weight: bold;
@@ -191,7 +191,7 @@ footer a:hover{
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 60vh){
     main{
         flex-direction: column;
         align-items: center;
