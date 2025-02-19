@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: justify;
+}
+
+.text{
+    border: 1px solid red;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 10;
+}
+
+.articulo1{
+    margin: 3em;
+    padding-top: 90px;
+}
+.articulo2{
+    margin: 3em;
+    padding-top: 90px;
+}
+.articulo3{
+    margin: 3em;
+    padding-top: 60px;
+}
+
+
+p{
+    margin: 2em;
+}
