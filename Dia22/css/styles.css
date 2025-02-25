@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #d3d2d0;
+    background-color: #ebebeb;
 }
 
 header{
@@ -14,8 +14,9 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#c7cae1;
-    height: 5em;
+    background-color:#ebebeb;
+    border-bottom: 1px solid #8e8e8e;
+    height: 6em;
     font-family: "Playfair Display", serif;
     font-weight: 400;
     font-style: normal;
@@ -23,6 +24,9 @@ header{
     width: 100%;
 }
 
+header h2{
+    margin-top: 1em;
+}
 
 
 header a{
@@ -59,6 +63,8 @@ button{
     display: flex;
     align-items: center;
     gap: 8em;
+    margin-bottom: 1em;
+
 }
 
 .redes img{
@@ -66,3 +72,79 @@ button{
     flex-wrap: nowrap;
     width: 40px;
 }
+
+/*NOTICIAS*/
+.hueco_noticias{
+    border: 1px solid red;
+    height: 11vh;
+    width: 100%;
+}
+
+.noticias img{
+    width: 20vw;
+    height: auto;
+}
+
+.noticias{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2em;
+    margin: 2em;
+    background-color: white;
+    width: 95vw;
+    height: auto;
+    text-align: justify;
+}
+.noticias a{
+    text-decoration: none;
+    color: black;
+}
+.noticias a:hover{
+    color: rgb(156, 155, 236);
+}
+.noticias p{
+    font-size: 14px;
+}
+
+/*AGUILA*/
+.aguila{
+    grid-row: 1/3;
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+.aguila img{
+    width: 50vh;
+    height: auto;
+}
+
+.aguila h2{
+    font-size: 48px;
+}
+.aguila h4{
+    font-size: 20px;
+}
+
+/*PEZ*/
+.pez{
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+/*iceberg*/
+.iceberg{
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
+/*BALLENA*/
+.ballena{
+    flex-direction: column;
+    align-items: center;
+    margin: 2em;
+}
+
