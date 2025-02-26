@@ -100,9 +100,9 @@ button{
     width: 40px;
 }
 
+
 /*NOTICIAS*/
 .hueco_noticias{
-    border: 1px solid red;
     height: 11vh;
     width: 100%;
 }
@@ -132,6 +132,9 @@ button{
 .noticias p{
     font-size: 14px;
 }
+
+
+
 
 /*AGUILA*/
 .aguila{
@@ -179,10 +182,10 @@ button{
 
 .formulario{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 50%;
     transform: translate(-50%,50%);
-    width: 40vw;
+    width: 30vw;
     height: 50vh;
     background-color: #ffffff;
     border-radius: 10px;
@@ -192,26 +195,187 @@ button{
     text-align: center;
     padding: 10px 10px;
     border-bottom: 1px solid gray;
+    font-size: 40px;
 }
 
 .formulario form{
     margin: 2em;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
-form .usuario{
-    position: relative;
-    border-bottom: 2px solid gray;
-    margin: 30em;
+.usuario{
+    padding: 1.5em;
 }
 
-.usuario input{
-    height: 20px;
-    font-size: 26px;
+.password{
+    padding: 1.5em;
 }
 
-.usuario label{
+.recordar{
+    margin-left: 1em;
+}
+
+.iniciar input{
     position: absolute;
-    top: 7.5vh;
+    bottom: 17vh;
+    left: 3vw;
+    font-size: 16px;
+}
+
+.registrate a{
+    position: absolute;
+    bottom:27vh;
+    left: 38vw;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: #9e9e9e;
+    padding: 6px;
+    border-radius: 10%;
+}
+
+.registrate a:hover{
+    color:#ffffff;
+}
+
+/*FORM REGISTRO*/
+.formulario-registro{
+    background-color: #ffffff;
+    width: 25vw;
+    height: auto;
+    position: absolute;
+    top:30%;
+    left: 38%;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.formulario-registro h1{
+    border-bottom: 1px solid gray;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-registro form{
+    padding: 2em;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre-registro{
+    margin-bottom: 1em;
+}
+
+.apellidos{
+    margin-bottom: 1em;
+}
+
+.cumple{
+    margin-bottom: 1em;
+}
+
+.mail{
+    margin-bottom: 1em;
+}
+
+.password-registro{
+    margin-bottom: 1em;
+}
+
+@media (max-width: 1024px) {
+    .noticias {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hueco_noticias{
+        height: 17em;
+    }
+
+    .aguila {
+        grid-column: 1 / 3;
+    }
+
+    .aguila img {
+        width: 100%;
+    }
+
+    .formulario, .formulario-registro {
+        width: 50%;
+    }
+}
+
+@media (max-width: 845px) {
+    header {
+        height: auto;
+        padding: 5px;
+    }
+
+    .navegador {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .menu-horizontal {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .redes img {
+        width: 30px;
+    }
+
+    .buscador {
+        width: 100%;
+    }
+
+    .buscador input {
+        width: 80%;
+    }
+
+    .noticias {
+        grid-template-columns: 1fr;
+        gap: 1em;
+        margin: 1em;
+    }
+
+    .noticias img {
+        width: 100%;
+    }
+
+    .aguila, .pez, .iceberg, .ballena {
+        margin: 1em 0;
+    }
+
+    .aguila h2 {
+        font-size: 36px;
+    }
+
+    .aguila h4 {
+        font-size: 16px;
+    }
+
+    .formulario-registro {
+        width: 90%;
+        left: 5%;
+        top: 50%;
+    }
+
+    .formulario{
+        width: 90%;
+        left: 50%;
+        top: 50%;
+    }
+
+
+    .formulario h1, .formulario-registro h1 {
+        font-size: 30px;
+    }
+
+    .registrate a {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }

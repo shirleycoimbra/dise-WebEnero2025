@@ -29,7 +29,7 @@
                     </li>
                     <li><a href="../html/acceso.html" class="acceso">Acceso</a></li>
                     <li><a href="../html/registro.html" class="registro">Registro</a></li>
-                </ul>
+                <ul>
             </nav>
             <div class="redes">
                 <a href="#"><img src="../imagenes/Facebook.png" alt="logo facebook"></a>
@@ -38,23 +38,31 @@
             </div>
         </div>
     </header>
-    <div class="formulario">
-        <h1>Inicio de sesión</h1>
-        <form method="post">
-            <div class="usuario">
-                <label for="usuario">Nombre de usuario</label>
+    <div class="formulario-registro">
+        <h1>¡Regístrate!</h1>
+        <form action="post">
+            <div class="nombre-registro">
+                <label for="nombre">Nombre</label>
                 <input type="text" required>
             </div>
-            <div class="password">
-                <label for="contraseña">Contraseña</label>
-                <input type="password">
+            <div class="apellidos">
+                <label for="apellidos">Apellidos</label>
+                <input type="text" required>
             </div>
-            <div class="iniciar">
-                <input type="submit" value="iniciar">
+            <div class="cumple">
+                <label for="fecha-nacimiento">Fecha de nacimiento</label>
+                <input type="date" required>
             </div>
+            <div class="mail">
+                <label for="mail">Mail</label>
+                <input type="mail" required>
             </div>
-            <div class="registrate">
-                <a href="../html/registro.html">¡Regístrate!</a>
+            <div class="password-registro">
+                <label for="password">Contraseña</label>
+                <input type="password" required>
+            </div>
+            <div class="buttom">
+                <input type="submit" value="Bienvenido">
             </div>
         </form>
     </div>
