@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); /* Sombra del div */
+    border-radius: 10px;
+}
+
+.caja p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    color: #333;
+}
