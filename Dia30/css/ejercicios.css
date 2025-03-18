@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    display: block;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 25%;
+    width:20vw;
+    height: 5vw;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+/* EJERCICIO 2 */
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    
+}
+
+.box{
+    border: 1px solid black;
+    width: 3em;
+    height: 3em;
+    margin: 20px;
+    border-radius: 20%;
+    background-color: rgb(151, 102, 197);
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
