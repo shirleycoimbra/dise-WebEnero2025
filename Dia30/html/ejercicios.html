@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/ejercicios.css">
-    <script src="../js/ejercicios.js"></script>
-    <title>Document</title>
+    <script defer src="../js/ejercicios.js"></script>
+    <title>Dia30</title>
 </head>
 <body>
+    <h2>Ejercicio 1</h2>
     <button onclick="handleOpen()">Open</button>
     <button onclick="handleClose()">Close</button>
     <button onclick="handleLocation()">Location</button>
     <button onclick="handleMove()">MoveTo</button>
     <button onclick="handleResize()">ResizeTo</button>
+    <br>
+    <br>
+    <h2>Ejercicio 2</h2>
     <div class="container">
         <div class="box">1</div>
         <div class="box">2</div>
@@ -21,6 +25,20 @@
         <div class="box">5</div>
     </div>
     <button onclick="handleRandorizer()">Randorizer</button>
-
+    <br>
+    <br>
+    <h2>Ejercicio 3</h2>
+    <div class="container">
+        <input type="number" id="n1">
+        <select id="op">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="n2">
+    </div>
+    <button onclick="handleCalculator()">Calcular</button>
+    <span id="result">0</span></p>
 </body>
 </html>

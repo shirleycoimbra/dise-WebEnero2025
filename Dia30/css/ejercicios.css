@@ -48,3 +48,10 @@ button:hover{
     align-items: center;
 }
 
+/* EJERCICIO 3 */
+input{
+    border: 1px solid black;
+    width: 10vw;
+    margin: 10px;
+}
+

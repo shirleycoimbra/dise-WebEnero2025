@@ -21,9 +21,45 @@ function handleResize(){
 }
 
 // EJERCICIO 2
-const boxs = document.querySelectorAll(".box");
+const boxes = document.querySelectorAll(".box");
 
 function getRndInteger(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
 }
 
+function handleRandorizer() {
+    boxes.forEach (box => {
+        box.textContent = getRndInteger(1, 100);
+    });
+}
+
+// EJERCICIO 3 //
+const n1 = document.getElementById("n1");
+const n2 = document.getElementById("n2");
+const op = document.getElementById("op");
+const result = document.getElementById ("result");
+
+function handleCalculator(){
+    const value1 = parseFloat(n1.value);
+    const value2 = parseFloat(n2.value);
+    let r;
+    
+    switch (op.value) {
+        case "+":
+            r = value1 + value2;
+            break;
+        case "-":
+            r = value1 - value2;
+            break;
+        case "*":
+            r = value1 * value2;
+            break;
+        case "/":
+            r = value1 /  value2;
+            break;
+        default:
+            r = "error";
+            break;
+    }
+    result.innerHTML = r;
+}

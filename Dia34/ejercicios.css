@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    padding: 20px;
+}
+
+body{
+    margin: 20px;
+}
+
+#header{
+    margin: auto;
+    width: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+/* esto es para que se pongan en horizontal*/
+.nav>li{
+    float: left;
+}
+
+.nav li a{
+    background-color: rgb(88, 88, 190);
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+
+.nav li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+/* esto oculta todos los submenus */
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.nav li:hover>ul {
+    display:block;
+}
+
+/* esto es lo que hace que el submenu 1.1, 2.2... se ponga de manera "cascada" y no un bloque al lado o abajo del submenu */
+.nav li ul li {
+    position: relative;
+}
+
+/* esto es lo que hace que el submenu 1.1, 2.2... se ponga de manera "cascada" A LA DERECHA y no un bloque al lado o abajo del submenu */
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+}

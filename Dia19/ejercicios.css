@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2em;
+}
+
+div{
+    margin: 2em;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    }
+
+.azul1{
+    background-color: blue;
+
+}
+.rojo1{
+    background-color: red;
+}
+.morado1{
+    background-color: purple;
+}
+
+/* EJERCICIO 1 */
+.azul1:hover{
+    width: 200px;
+}
+.rojo1:hover{
+    height: 200px;
+}
+.morado1:hover{
+    width: 200px;
+    height: 200px;
+}
+
+/* EJERCICIO 2 */
+.animado{
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.azul2{
+    background-color: blue;
+    animation-name: animado1;
+}
+.rojo2{
+    background-color: red;
+    animation-name: animado2;
+}
+.morado2{
+    background-color: purple;
+    animation-name: animado3;
+}
+
+@keyframes animado1{
+    from{
+        width: 200px;
+    }
+    to{
+        width: 50px;
+    }
+}
+
+@keyframes animado2{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animado3{
+    0% {background-color: rgb(65, 0, 93);}
+    20% {background-color: rgb(107, 32, 139);}
+    40% {background-color: rgb(110, 41, 138);}
+    60% {background-color: rgb(153, 71, 188);}
+    80% {background-color: rgb(170, 110, 196);}
+    100% {background-color: rgb(229, 190, 246);}
+}
+
+/* EJERCICIO */
+p{
+    padding: 10px;
+}
