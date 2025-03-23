@@ -85,7 +85,73 @@ div{
     100% {background-color: rgb(229, 190, 246);}
 }
 
-/* EJERCICIO */
+/* EJERCICIO 3*/
 p{
     padding: 10px;
+    animation-name: parpadeo;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes parpadeo{
+    from{
+        opacity: 0;
+    }
+    top{
+        opacity: 1;
+    }
+}
+
+/* EJERCICIO 4 */
+
+.movimiento{
+    animation-name: movimiento;
+    padding: 10px;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    background-color: burlywood;
+}
+@keyframes movimiento{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(500px);
+    }
+}
+
+/*EJERCICIO 5*/
+.animadoColor{
+    animation-name: animadoColor;
+    background-color: rgb(229, 190, 246);
+    transition: background-color 2s;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.animadoColor:hover{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+}
+
+/* EJERCICIO 6 */
+.cuadradoTexto{
+    animation-name: cuadradoTexto;
+    background-color: rgb(21, 182, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.texto{
+    display: none;
+    color: white;
+    position: absolute;
+}
+
+.cuadradoTexto:hover .texto{
+    display: block;
 }
