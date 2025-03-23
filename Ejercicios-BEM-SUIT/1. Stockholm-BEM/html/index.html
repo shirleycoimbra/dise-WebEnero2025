@@ -10,7 +10,12 @@
     <!--HEADER-->
     <header>
         <div class="header">
-            <a href="#home" class="header__link"><img class="header_logo" src="../assets/Footer-logo.png" alt="img del logo"></a>
+            <!-- Logo -->
+            <a href="#home" class="header__link">
+                <img class="header_logo" src="../assets/Footer-logo.png" alt="img del logo">
+            </a>
+
+            <!-- Menú principal (MAIN, ABOUT, CONTACT) -->
             <nav class="header__nav">
                 <ul class="header__menu">
                     <li class="header__menu-item"><a href="#" class="header__menu-link">MAIN</a></li>
@@ -18,11 +23,15 @@
                     <li class="header__menu-item"><a href="#" class="header__menu-link">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="header__social">
-                <a href="#" class="header__social-link"><img src="../assets/" alt="Pinterest"></a>
-                <a href="#" class="header__social-link"><img src="twitter-icon.png" alt="Twitter"></a>
-                <a href="#" class="header__social-link"><img src="twitter-icon.png" alt="Instagram"></a>
-            </div>
+
+            <!-- Menú Hamburguesa -->
+            <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa">
+            <label for="menu_hamburguesa" class="label_hamburguesa">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="list_icon" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </label>
+
         </div>
     </header>
     <!--PORTFOLIO-->
@@ -74,16 +83,16 @@
                         <img src="../assets/Masonry-list-img-9-1000x1000.jpg" alt="">
                     </a>
                 </div>                
-                <div class="portfolio__item-img10">
-                    <a href="#">
-                        <img src="../assets/Masonry-list-img-10-500x500.jpg" alt="">
-                    </a>
-                </div>                
                 <div class="portfolio__item-img11">
                     <a href="#">
                         <img src="../assets/Masonry-list-img-11-500x500.jpg" alt="">
                     </a>
-                </div>                
+                </div>
+                <div class="portfolio__item-img10">
+                    <a href="#">
+                        <img src="../assets/Masonry-list-img-10-500x500.jpg" alt="">
+                    </a>
+                </div>                  
                 <div class="portfolio__item-img12">
                     <a href="#">
                         <img src="../assets/Masonry-list-img-12-500x1000.jpg" alt="">
@@ -93,15 +102,15 @@
                     <a href="#">
                         <img src="../assets/Masonry-list-img-13-500x500.jpg" alt="">
                     </a>
+                </div>
+                <div class="portfolio__item-img15">
+                    <a href="#">
+                        <img src="../assets/Masonry-list-img-15-500x500.jpg" alt="">
+                    </a>
                 </div>                
                 <div class="portfolio__item-img14">
                     <a href="#">
                         <img src="../assets/Masonry-list-img-14-500x500.jpg" alt="">
-                    </a>
-                </div>                
-                <div class="portfolio__item-img15">
-                    <a href="#">
-                        <img src="../assets/Masonry-list-img-15-500x500.jpg" alt="">
                     </a>
                 </div>                
                 <div class="portfolio__item-img16">
@@ -113,15 +122,20 @@
                     <a href="#">
                         <img src="../assets/Masonry-list-img-17-1000x500.jpg" alt="">
                     </a>
-                </div>                
+                </div>   
+                <div class="portfolio__item-img19">
+                    <a href="#">
+                        <img src="../assets/Masonry-list-img-19-500x500.jpg" alt="">
+                    </a>
+                </div>
                 <div class="portfolio__item-img18">
                     <a href="#">
                         <img src="../assets/Masonry-list-img-18-500x500.jpg" alt="">
                     </a>
                 </div>                
-                <div class="portfolio__item-img19">
+                <div class="portfolio__item-img21">
                     <a href="#">
-                        <img src="../assets/Masonry-list-img-19-500x500.jpg" alt="">
+                        <img src="../assets/Masonry-list-img-21-500x500.jpg" alt="">
                     </a>
                 </div>
                 <div class="portfolio__item-img20">
@@ -132,5 +146,31 @@
             </div>
         </div>
     </section>
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__content">
+            <!-- Logo -->
+            <div class="footer__logo">
+                <img src="../assets/Footer-logo.png" alt="Footer Logo">
+                <p class="footer_logo-texto">Aliquam lorem ante, dapibus in, viverra quis, elit feugiat </p>
+                <p class="footer_logo-texto">Etiam sit tellus. Phasellus rutru nulla euter ameter</p>    
+                <p class="footer_logo-texto">metus varius laoreet amet orci.</p>    
+                <!-- Íconos de redes sociales -->
+                <a href="#" class="footer__social-link">
+                    <img src="..//imagenes-logos/pinterest.png" alt="Pinterest">
+                </a>
+                <a href="#" class="footer__social-link">
+                    <img src="..//imagenes-logos/twiter.webp" alt="Twitter">
+                </a>
+                <a href="#" class="footer__social-link">
+                    <img src="..//imagenes-logos/insta.png" alt="Instagram">
+                </a>
+            </div>
+            <!-- Texto de derechos de autor -->
+            <div class="footer__copyright">
+                <p>&copy; 2023 Stockholm109. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
