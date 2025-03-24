@@ -62,7 +62,7 @@ li.active:hover{
     transform: rotateY(180deg);
     transition: transform 1s;
     width: 40vw;
-    height: 10vw;
+    height: 40vw;
     border: 1px solid black;
     margin: 0;
 }

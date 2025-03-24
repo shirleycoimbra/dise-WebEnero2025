@@ -11,6 +11,22 @@ h2{
 
 body{
     margin: 20px;
+    min-height: 100vh;
+    color:inherit;
+    line-height: 1.5em;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e0e0e0;
+
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #header{
@@ -62,3 +78,5 @@ ul, ol, li {
     right: -140px;
     top: 0px;
 }
+
+/* EJERCICIO 4 */
