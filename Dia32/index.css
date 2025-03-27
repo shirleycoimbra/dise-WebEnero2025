@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.animated {
+    animation: bounce 1s ease-in-out;
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+.red-text {
+    color: red;
+    transition: color 0.5s;
+}
+
+.big-div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    transition: width 0.5s, height 0.5s;
+}
+.small-div {
+    width: 100px;
+    height: 100px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    text-align: center; 
+}
+.transition { 
+    transition: all 0.5s ease; 
+}
+.square { 
+    width: 100px; 
+    height: 100px; 
+    border: 2px solid black; 
+    margin: 20px auto; 
+}
+.hidden { 
+    display: none; 
+}
+.fade { 
+    opacity: 0; 
+    transition: opacity 0.5s ease; 
+}
+table { 
+    margin: 20px auto; 
+    border-collapse: collapse; 
+}
+td { 
+    width: 50px; 
+    height: 50px; 
+    border: 1px solid black; 
+    text-align: center; 
+}
